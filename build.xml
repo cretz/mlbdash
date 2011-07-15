@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2011 Chad Retz                                               -->
+<!-- Licensed under the Apache License, Version 2.0 (the "License"); you    -->
+<!-- may not use this file except in compliance with the License. You may   -->
+<!-- may obtain a copy of the License at                                    -->
+<!--                                                                        -->
+<!-- http://www.apache.org/licenses/LICENSE-2.0                             -->
+<!--                                                                        -->
+<!-- Unless required by applicable law or agreed to in writing, software    -->
+<!-- distributed under the License is distributed on an "AS IS" BASIS,      -->
+<!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or        -->
+<!-- implied. License for the specific language governing permissions and   -->
+<!-- limitations under the License.                                         -->
+
+<project name="mlbdash">
+	
+    <target name="build">
+    	<!-- clean previous -->
+    	<delete dir="build" />
+    	<!-- javac -->
+        <mkdir dir="build/classes" />
+    	<javac destdir="build/classes" srcdir="src" includes="**/*.java" debug="true">
+            <classpath>
+                <pathelement location="src" />
+                <fileset dir="lib" includes="*.jar" />
+                <fileset dir="war/WEB-INF/lib" includes="*.jar" />
+            </classpath>
+        </javac>
+    	<!-- gwtc -->
+        <mkdir dir="build/exploded" />
+        <mkdir dir="build/extra" />
+        <java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+            <classpath>
+                <pathelement location="src" />
+                <pathelement location="build/classes" />
+                <fileset dir="lib" includes="*.jar" />
+                <fileset dir="war/WEB-INF/lib" includes="*.jar" />
+            </classpath>
+            <jvmarg value="-Xmx256M" />
+            <arg value="-strict" />
+            <arg value="-war" />
+            <arg value="build/exploded" />
+            <arg value="-extra" />
+            <arg value="build/extra" />
+            <arg value="org.mlbdash.MlbDash" />
+        </java>
+    	<!-- package -->
+    	<delete dir="build/classes" />
+        <delete dir="build/exploded/mlbdash/hosted.html" />
+        <delete dir="build/exploded/WEB-INF" />
+        <delete dir="build/extra" />
+    	<copy todir="build/exploded">
+    		<fileset dir="war" includes="index.html" />
+    	</copy>
+    	<zip zipfile="build/mlbdash.zip">
+    		<fileset dir="build/exploded" includes="**/*" />
+    	</zip>
+    </target>
+	
+	<target name="test">
+		<!-- NOT WORKING YET!! -->
+		<echo message="NOT WORKING YET!!!" />
+		<!-- clean previous -->
+        <delete dir="build" />
+        <!-- javac -->
+        <mkdir dir="build/classes" />
+        <javac destdir="build/classes" srcdir="src" includes="**/*.java" debug="true">
+            <classpath>
+                <pathelement location="src" />
+                <pathelement location="test" />
+                <fileset dir="lib" includes="*.jar" />
+                <fileset dir="war/WEB-INF/lib" includes="*.jar" />
+            </classpath>
+            <src path="src" />
+            <src path="test" />
+        </javac>
+		<!-- junit -->
+        <mkdir dir="build/junit" />
+		<junit showoutput="true">
+            <classpath>
+                <pathelement location="src" />
+                <pathelement location="test" />
+                <pathelement location="build/classes" />
+                <fileset dir="lib" includes="*.jar" />
+                <fileset dir="war/WEB-INF/lib" includes="*.jar" />
+            </classpath>
+			<test todir="build/junit" name="org.mlbdash.client.MlbDashGwtTestSuite" />
+		</junit>
+	</target>
+	
+</project>

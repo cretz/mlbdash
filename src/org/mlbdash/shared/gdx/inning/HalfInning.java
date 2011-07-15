@@ -22,24 +22,15 @@ import name.pehl.piriti.commons.client.Path;
 
 @SuppressWarnings("serial")
 public class HalfInning implements Serializable {
+    
+    @Path("atbat | action") List<Event> events;
 
-    @Path("atbat") List<AtBat> atBats;
-    @Path("action") List<Action> actions;
-
-    public List<AtBat> getAtBats() {
-        return atBats;
+    public List<Event> getEvents() {
+        return events;
     }
-
-    public void setAtBats(List<AtBat> atBats) {
-        this.atBats = atBats;
-    }
-
-    public List<Action> getActions() {
-        return actions;
-    }
-
-    public void setActions(List<Action> actions) {
-        this.actions = actions;
+    
+    public void setEvents(List<Event> events) {
+        this.events = events;
     }
     
 }

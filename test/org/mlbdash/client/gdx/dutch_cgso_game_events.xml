@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2011 MLB Advanced Media, L.P. Use of any content on this page 
+    acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt -->
+<game>
+    <inning num="1">
+        <top>
+            <atbat num="1" o="1" start_tfs="220942"
+                start_tfs_zulu="2011-07-15T02:09:42Z" batter="435079"
+                pitcher="450306"
+                des="Ian Kinsler flies out to right fielder Ichiro Suzuki.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="2" o="2" start_tfs="221144"
+                start_tfs_zulu="2011-07-15T02:11:44Z" batter="462101"
+                pitcher="450306"
+                des="Elvis Andrus grounds out, pitcher Jason Vargas to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="3" o="2" start_tfs="221248"
+                start_tfs_zulu="2011-07-15T02:12:48Z" batter="285078"
+                pitcher="450306"
+                des="Josh Hamilton homers (12) on a fly ball to right field.  "
+                event="Home Run" score="T" home_team_runs="0"
+                away_team_runs="1" b1="" b2="" b3="" rbi="1" />
+            <atbat num="4" o="3" start_tfs="221429"
+                start_tfs_zulu="2011-07-15T02:14:29Z" batter="134181"
+                pitcher="450306"
+                des="Adrian Beltre grounds out, shortstop Brendan Ryan to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="5" o="1" start_tfs="221715"
+                start_tfs_zulu="2011-07-15T02:17:15Z" batter="400085"
+                pitcher="502706"
+                des="Ichiro Suzuki grounds out softly, catcher Yorvit Torrealba to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="6" o="2" start_tfs="221847"
+                start_tfs_zulu="2011-07-15T02:18:47Z" batter="453895"
+                pitcher="502706" des="Brendan Ryan called out on strikes.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="7" o="3" start_tfs="222017"
+                start_tfs_zulu="2011-07-15T02:20:17Z" batter="554429"
+                pitcher="502706"
+                des="Dustin Ackley grounds out to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="2">
+        <top>
+            <atbat num="8" o="1" start_tfs="222323"
+                start_tfs_zulu="2011-07-15T02:23:23Z" batter="276545"
+                pitcher="450306" des="Michael Young called out on strikes.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="9" o="1" start_tfs="222459"
+                start_tfs_zulu="2011-07-15T02:24:59Z" batter="443558"
+                pitcher="450306"
+                des="Nelson Cruz homers (21) on a fly ball to right field.  "
+                event="Home Run" score="T" home_team_runs="0"
+                away_team_runs="2" b1="" b2="" b3="" rbi="1" />
+            <atbat num="10" o="1" start_tfs="222606"
+                start_tfs_zulu="2011-07-15T02:26:06Z" batter="150275"
+                pitcher="450306"
+                des="Yorvit Torrealba doubles (16) on a fly ball to center fielder Franklin Gutierrez.  "
+                event="Double" b1="" b2="150275" b3="" />
+            <atbat num="11" o="1" start_tfs="222713"
+                start_tfs_zulu="2011-07-15T02:27:13Z" batter="435063"
+                pitcher="450306"
+                des="Mike Napoli singles on a ground ball to left fielder Greg Halman.    Yorvit Torrealba to 3rd.  "
+                event="Single" b1="435063" b2="" b3="150275" />
+            <action o="1"
+                des="With Craig Gentry batting, Mike Napoli steals (2) 2nd base.  "
+                event="Stolen Base 2B" tfs="223152" tfs_zulu="2011-07-15T02:31:52Z"
+                player="435063" pitch="6" />
+            <atbat num="12" o="2" start_tfs="222928"
+                start_tfs_zulu="2011-07-15T02:29:28Z" batter="502226"
+                pitcher="450306"
+                des="Craig Gentry pops out to first baseman Adam Kennedy.  "
+                event="Pop Out" b1="" b2="435063" b3="" />
+            <atbat num="13" o="3" start_tfs="223246"
+                start_tfs_zulu="2011-07-15T02:32:46Z" batter="435079"
+                pitcher="450306"
+                des="Ian Kinsler flies out to center fielder Franklin Gutierrez.  "
+                event="Flyout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="14" o="1" start_tfs="223603"
+                start_tfs_zulu="2011-07-15T02:36:03Z" batter="400018"
+                pitcher="502706"
+                des="Miguel Olivo lines out sharply, pitcher Derek Holland to first baseman Mike Napoli.  "
+                event="Lineout" b1="" b2="" b3="" />
+            <atbat num="15" o="2" start_tfs="223646"
+                start_tfs_zulu="2011-07-15T02:36:46Z" batter="475253"
+                pitcher="502706"
+                des="Justin Smoak flies out to right fielder Nelson Cruz.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="16" o="3" start_tfs="223823"
+                start_tfs_zulu="2011-07-15T02:38:23Z" batter="150456"
+                pitcher="502706" des="Adam Kennedy strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="3">
+        <top>
+            <atbat num="17" o="0" start_tfs="224142"
+                start_tfs_zulu="2011-07-15T02:41:42Z" batter="462101"
+                pitcher="450306"
+                des="Elvis Andrus singles on a ground ball to left fielder Greg Halman.  "
+                event="Single" b1="462101" b2="" b3="" />
+            <atbat num="18" o="1" start_tfs="224504"
+                start_tfs_zulu="2011-07-15T02:45:04Z" batter="285078"
+                pitcher="450306"
+                des="Josh Hamilton flies out to center fielder Franklin Gutierrez.    Elvis Andrus to 2nd.  "
+                event="Flyout" b1="" b2="462101" b3="" />
+            <atbat num="19" o="2" start_tfs="224717"
+                start_tfs_zulu="2011-07-15T02:47:17Z" batter="134181"
+                pitcher="450306"
+                des="Adrian Beltre flies out to center fielder Franklin Gutierrez.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="20" o="2" start_tfs="224930"
+                start_tfs_zulu="2011-07-15T02:49:30Z" batter="276545"
+                pitcher="450306"
+                des="Michael Young singles on a line drive to left fielder Greg Halman.    Elvis Andrus scores.    Michael Young to 2nd on the throw.  "
+                event="Single" score="T" home_team_runs="0"
+                away_team_runs="3" b1="" b2="276545" b3="" rbi="1" />
+            <atbat num="21" o="3" start_tfs="225058"
+                start_tfs_zulu="2011-07-15T02:50:58Z" batter="443558"
+                pitcher="450306" des="Nelson Cruz strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="22" o="1" start_tfs="225547"
+                start_tfs_zulu="2011-07-15T02:55:47Z" batter="429711"
+                pitcher="502706"
+                des="Franklin Gutierrez grounds out, shortstop Elvis Andrus to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="23" o="2" start_tfs="225727"
+                start_tfs_zulu="2011-07-15T02:57:27Z" batter="408210"
+                pitcher="502706" des="Chone Figgins strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="24" o="3" start_tfs="225843"
+                start_tfs_zulu="2011-07-15T02:58:43Z" batter="471897"
+                pitcher="502706" des="Greg Halman strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="4">
+        <top>
+            <atbat num="25" o="1" start_tfs="230126"
+                start_tfs_zulu="2011-07-15T03:01:26Z" batter="150275"
+                pitcher="450306"
+                des="Yorvit Torrealba grounds out, shortstop Brendan Ryan to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="26" o="1" start_tfs="230239"
+                start_tfs_zulu="2011-07-15T03:02:39Z" batter="435063"
+                pitcher="450306"
+                des="Mike Napoli singles on a soft fly ball to right fielder Ichiro Suzuki.  "
+                event="Single" b1="435063" b2="" b3="" />
+            <atbat num="27" o="2" start_tfs="230407"
+                start_tfs_zulu="2011-07-15T03:04:07Z" batter="502226"
+                pitcher="450306"
+                des="Craig Gentry pops out to second baseman Dustin Ackley.  "
+                event="Pop Out" b1="" b2="" b3="" />
+            <atbat num="28" o="2" start_tfs="230523"
+                start_tfs_zulu="2011-07-15T03:05:23Z" batter="435079"
+                pitcher="450306"
+                des="Ian Kinsler doubles (22) on a ground ball to left fielder Greg Halman.    Mike Napoli to 3rd.  "
+                event="Double" b1="" b2="435079" b3="435063" />
+            <atbat num="29" o="3" start_tfs="230704"
+                start_tfs_zulu="2011-07-15T03:07:04Z" batter="462101"
+                pitcher="450306"
+                des="Elvis Andrus flies out to right fielder Ichiro Suzuki.  "
+                event="Flyout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="30" o="1" start_tfs="231026"
+                start_tfs_zulu="2011-07-15T03:10:26Z" batter="400085"
+                pitcher="502706"
+                des="Ichiro Suzuki grounds out softly, second baseman Ian Kinsler to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="31" o="2" start_tfs="231225"
+                start_tfs_zulu="2011-07-15T03:12:25Z" batter="453895"
+                pitcher="502706"
+                des="Brendan Ryan grounds out, shortstop Elvis Andrus to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="32" o="3" start_tfs="231301"
+                start_tfs_zulu="2011-07-15T03:13:01Z" batter="554429"
+                pitcher="502706" des="Dustin Ackley called out on strikes.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="5">
+        <top>
+            <atbat num="33" o="1" start_tfs="231529"
+                start_tfs_zulu="2011-07-15T03:15:29Z" batter="285078"
+                pitcher="450306"
+                des="Josh Hamilton grounds out, second baseman Dustin Ackley to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="34" o="2" start_tfs="231608"
+                start_tfs_zulu="2011-07-15T03:16:08Z" batter="134181"
+                pitcher="450306"
+                des="Adrian Beltre pops out to second baseman Dustin Ackley.  "
+                event="Pop Out" b1="" b2="" b3="" />
+            <atbat num="35" o="2" start_tfs="231708"
+                start_tfs_zulu="2011-07-15T03:17:08Z" batter="276545"
+                pitcher="450306"
+                des="Michael Young doubles (26) on a line drive to right fielder Ichiro Suzuki.  "
+                event="Double" b1="" b2="276545" b3="" />
+            <atbat num="36" o="2" start_tfs="231814"
+                start_tfs_zulu="2011-07-15T03:18:14Z" batter="443558"
+                pitcher="450306"
+                des="Jason Vargas intentionally walks Nelson Cruz.  "
+                event="Intent Walk" b1="443558" b2="" b3="" />
+            <atbat num="37" o="3" start_tfs="231913"
+                start_tfs_zulu="2011-07-15T03:19:13Z" batter="150275"
+                pitcher="450306" des="Yorvit Torrealba strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="38" o="1" start_tfs="232234"
+                start_tfs_zulu="2011-07-15T03:22:34Z" batter="400018"
+                pitcher="502706" des="Miguel Olivo strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="39" o="2" start_tfs="232426"
+                start_tfs_zulu="2011-07-15T03:24:26Z" batter="475253"
+                pitcher="502706"
+                des="Justin Smoak lines out to center fielder Craig Gentry.  "
+                event="Lineout" b1="" b2="" b3="" />
+            <atbat num="40" o="3" start_tfs="232516"
+                start_tfs_zulu="2011-07-15T03:25:16Z" batter="150456"
+                pitcher="502706"
+                des="Adam Kennedy grounds out softly, second baseman Ian Kinsler to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="6">
+        <top>
+            <atbat num="41" o="0" start_tfs="232715"
+                start_tfs_zulu="2011-07-15T03:27:15Z" batter="435063"
+                pitcher="450306"
+                des="Mike Napoli homers (13) on a fly ball to right center field.  "
+                event="Home Run" score="T" home_team_runs="0"
+                away_team_runs="4" b1="" b2="" b3="" rbi="1" />
+            <atbat num="42" o="0" start_tfs="232829"
+                start_tfs_zulu="2011-07-15T03:28:29Z" batter="502226"
+                pitcher="450306"
+                des="Craig Gentry singles on a line drive to left fielder Greg Halman.  "
+                event="Single" b1="502226" b2="" b3="" />
+            <action o="0"
+                des="With Ian Kinsler batting, Craig Gentry steals (11) 2nd base.  "
+                event="Stolen Base 2B" tfs="233010" tfs_zulu="2011-07-15T03:30:10Z"
+                player="502226" pitch="1" />
+            <atbat num="43" o="1" start_tfs="232922"
+                start_tfs_zulu="2011-07-15T03:29:22Z" batter="435079"
+                pitcher="450306"
+                des="Ian Kinsler pops out to third baseman Chone Figgins in foul territory.  "
+                event="Pop Out" b1="" b2="502226" b3="" />
+            <atbat num="44" o="1" start_tfs="233109"
+                start_tfs_zulu="2011-07-15T03:31:09Z" batter="462101"
+                pitcher="450306"
+                des="Elvis Andrus singles on a ground ball to right fielder Ichiro Suzuki.    Craig Gentry scores.  "
+                event="Single" score="T" home_team_runs="0"
+                away_team_runs="5" b1="462101" b2="" b3="" rbi="1" />
+            <atbat num="45" o="2" start_tfs="233421"
+                start_tfs_zulu="2011-07-15T03:34:21Z" batter="285078"
+                pitcher="450306"
+                des="Josh Hamilton lines out to right fielder Ichiro Suzuki.  "
+                event="Lineout" b1="" b2="" b3="" />
+            <action o="3"
+                des="With Adrian Beltre batting, Elvis Andrus caught stealing 2nd base, catcher Miguel Olivo to second baseman Dustin Ackley.  "
+                event="Caught Stealing 2B" tfs="233608" tfs_zulu="2011-07-15T03:36:08Z"
+                player="462101" pitch="1" />
+            <atbat num="46" o="3" start_tfs="233528"
+                start_tfs_zulu="2011-07-15T03:35:28Z" batter="134181"
+                pitcher="450306"
+                des="With Adrian Beltre batting, Elvis Andrus caught stealing 2nd base, catcher Miguel Olivo to second baseman Dustin Ackley.  "
+                event="Runner Out" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="47" o="0" start_tfs="233812"
+                start_tfs_zulu="2011-07-15T03:38:12Z" batter="429711"
+                pitcher="502706" des="Franklin Gutierrez walks.  "
+                event="Walk" b1="429711" b2="" b3="" />
+            <atbat num="48" o="0" start_tfs="234133"
+                start_tfs_zulu="2011-07-15T03:41:33Z" batter="408210"
+                pitcher="502706"
+                des="Chone Figgins singles on a line drive to center fielder Craig Gentry.    Franklin Gutierrez to 2nd.  "
+                event="Single" b1="408210" b2="429711" b3="" />
+            <atbat num="49" o="1" start_tfs="234335"
+                start_tfs_zulu="2011-07-15T03:43:35Z" batter="471897"
+                pitcher="502706"
+                des="Greg Halman pops out to second baseman Ian Kinsler on the infield fly rule.  "
+                event="Pop Out" b1="" b2="" b3="" />
+            <atbat num="50" o="2" start_tfs="234528"
+                start_tfs_zulu="2011-07-15T03:45:28Z" batter="400085"
+                pitcher="502706"
+                des="Ichiro Suzuki grounds into a force out, fielded by third baseman Adrian Beltre.    Franklin Gutierrez out at 3rd.    Chone Figgins to 2nd.    Ichiro Suzuki to 1st.  "
+                event="Forceout" b1="400085" b2="408210" b3="" />
+            <atbat num="51" o="3" start_tfs="234659"
+                start_tfs_zulu="2011-07-15T03:46:59Z" batter="453895"
+                pitcher="502706"
+                des="Brendan Ryan lines out to right fielder Nelson Cruz.  "
+                event="Lineout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="7">
+        <top>
+            <action o="0"
+                des="Pitcher Change: Jeff Gray replaces Jason Vargas.  "
+                event="Pitching Substitution" tfs="235024" tfs_zulu="2011-07-15T03:50:24Z"
+                player="462522" pitch="4" />
+            <atbat num="52" o="1" start_tfs="235124"
+                start_tfs_zulu="2011-07-15T03:51:24Z" batter="134181"
+                pitcher="462522"
+                des="Adrian Beltre grounds out, shortstop Brendan Ryan to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="53" o="2" start_tfs="235154"
+                start_tfs_zulu="2011-07-15T03:51:54Z" batter="276545"
+                pitcher="462522"
+                des="Michael Young flies out to right fielder Ichiro Suzuki.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="54" o="3" start_tfs="235240"
+                start_tfs_zulu="2011-07-15T03:52:40Z" batter="443558"
+                pitcher="462522" des="Nelson Cruz strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="55" o="1" start_tfs="235551"
+                start_tfs_zulu="2011-07-15T03:55:51Z" batter="554429"
+                pitcher="502706"
+                des="Dustin Ackley flies out to right fielder Nelson Cruz.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="56" o="1" start_tfs="235815"
+                start_tfs_zulu="2011-07-15T03:58:15Z" batter="400018"
+                pitcher="502706"
+                des="Miguel Olivo singles on a line drive to left fielder Josh Hamilton.  "
+                event="Single" b1="400018" b2="" b3="" />
+            <atbat num="57" o="2" start_tfs="235857"
+                start_tfs_zulu="2011-07-15T03:58:57Z" batter="475253"
+                pitcher="502706"
+                des="Justin Smoak flies out to left fielder Josh Hamilton.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <action o="2"
+                des="With Adam Kennedy batting, Miguel Olivo advances to 2nd on defensive indifference.  "
+                event="Defensive Indiff" tfs="000134" tfs_zulu="2011-07-15T04:01:34Z"
+                player="400018" pitch="4" />
+            <atbat num="58" o="2" start_tfs="000008"
+                start_tfs_zulu="2011-07-15T04:00:08Z" batter="150456"
+                pitcher="502706"
+                des="Adam Kennedy singles on a line drive to left fielder Josh Hamilton.    Miguel Olivo to 3rd.  "
+                event="Single" b1="150456" b2="400018" b3="400018" />
+            <atbat num="59" o="3" start_tfs="000231"
+                start_tfs_zulu="2011-07-15T04:02:31Z" batter="429711"
+                pitcher="502706"
+                des="Franklin Gutierrez flies out to right fielder Nelson Cruz.  "
+                event="Flyout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="8">
+        <top>
+            <atbat num="60" o="1" start_tfs="000504"
+                start_tfs_zulu="2011-07-15T04:05:04Z" batter="150275"
+                pitcher="462522"
+                des="Yorvit Torrealba grounds out softly, pitcher Jeff Gray to first baseman Adam Kennedy.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="61" o="2" start_tfs="000637"
+                start_tfs_zulu="2011-07-15T04:06:37Z" batter="435063"
+                pitcher="462522" des="Mike Napoli strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <action o="2"
+                des="Offensive Substitution: Pinch hitter Endy Chavez replaces Craig Gentry.  "
+                event="Offensive sub" tfs="000834" tfs_zulu="2011-07-15T04:08:34Z"
+                player="346795" pitch="5" />
+            <atbat num="62" o="3" start_tfs="000843"
+                start_tfs_zulu="2011-07-15T04:08:43Z" batter="346795"
+                pitcher="462522"
+                des="Endy Chavez lines out to center fielder Franklin Gutierrez.  "
+                event="Lineout" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <action o="0"
+                des="Endy Chavez remains in the game as the center fielder.  "
+                event="Defensive Switch" tfs="001047" tfs_zulu="2011-07-15T04:10:47Z"
+                player="346795" pitch="2" />
+            <atbat num="63" o="1" start_tfs="001115"
+                start_tfs_zulu="2011-07-15T04:11:15Z" batter="408210"
+                pitcher="502706" des="Chone Figgins strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="64" o="2" start_tfs="001314"
+                start_tfs_zulu="2011-07-15T04:13:14Z" batter="471897"
+                pitcher="502706"
+                des="Greg Halman strikes out swinging, catcher Yorvit Torrealba to first baseman Mike Napoli.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="65" o="3" start_tfs="001454"
+                start_tfs_zulu="2011-07-15T04:14:54Z" batter="400085"
+                pitcher="502706"
+                des="Ichiro Suzuki lines out to center fielder Endy Chavez.  "
+                event="Lineout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <inning num="9">
+        <top>
+            <action o="0"
+                des="Pitcher Change: Chris Ray replaces Jeff Gray.  "
+                event="Pitching Substitution" tfs="001712" tfs_zulu="2011-07-15T04:17:12Z"
+                player="444884" pitch="2" />
+            <atbat num="66" o="1" start_tfs="001756"
+                start_tfs_zulu="2011-07-15T04:17:56Z" batter="435079"
+                pitcher="444884" des="Ian Kinsler strikes out swinging.  "
+                event="Strikeout" b1="" b2="" b3="" />
+            <atbat num="67" o="1" start_tfs="001946"
+                start_tfs_zulu="2011-07-15T04:19:46Z" batter="462101"
+                pitcher="444884" des="Elvis Andrus walks.  " event="Walk"
+                b1="462101" b2="" b3="" />
+            <atbat num="68" o="3" start_tfs="002143"
+                start_tfs_zulu="2011-07-15T04:21:43Z" batter="285078"
+                pitcher="444884"
+                des="Josh Hamilton grounds into double play, second baseman Dustin Ackley to shortstop Brendan Ryan to first baseman Adam Kennedy.    Elvis Andrus out at 2nd.  "
+                event="Grounded Into DP" b1="" b2="" b3="" />
+        </top>
+        <bottom>
+            <atbat num="69" o="1" start_tfs="002528"
+                start_tfs_zulu="2011-07-15T04:25:28Z" batter="453895"
+                pitcher="502706"
+                des="Brendan Ryan flies out to center fielder Endy Chavez.  "
+                event="Flyout" b1="" b2="" b3="" />
+            <atbat num="70" o="2" start_tfs="002806"
+                start_tfs_zulu="2011-07-15T04:28:06Z" batter="554429"
+                pitcher="502706"
+                des="Dustin Ackley grounds out to first baseman Mike Napoli.  "
+                event="Groundout" b1="" b2="" b3="" />
+            <atbat num="71" o="2" start_tfs="002915"
+                start_tfs_zulu="2011-07-15T04:29:15Z" batter="400018"
+                pitcher="502706"
+                des="Miguel Olivo singles on a soft line drive to center fielder Endy Chavez.  "
+                event="Single" b1="400018" b2="" b3="" />
+            <atbat num="72" o="2" start_tfs="003013"
+                start_tfs_zulu="2011-07-15T04:30:13Z" batter="475253"
+                pitcher="502706"
+                des="Justin Smoak singles on a soft fly ball to center fielder Endy Chavez.    Miguel Olivo to 2nd.  "
+                event="Single" b1="475253" b2="400018" b3="" />
+            <action o="2" des="Coaching visit to mound.  " event="Game Advisory"
+                tfs="003128" tfs_zulu="2011-07-15T04:31:28Z" player="150456"
+                pitch="3" />
+            <atbat num="73" o="3" start_tfs="003218"
+                start_tfs_zulu="2011-07-15T04:32:18Z" batter="150456"
+                pitcher="502706"
+                des="Adam Kennedy lines out to center fielder Endy Chavez.  "
+                event="Lineout" b1="" b2="" b3="" />
+        </bottom>
+    </inning>
+    <atBat pid="150456" />
+    <deck pid="429711" />
+    <hole pid="408210" />
+</game>

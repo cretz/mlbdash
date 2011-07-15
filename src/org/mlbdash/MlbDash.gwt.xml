@@ -19,9 +19,9 @@
 	<inherits name="name.pehl.piriti.xml.XML" />
 
 	<inherits name="com.google.gwt.inject.Inject" />
-
+<!-- 
 	<inherits name="com.google.gwt.user.theme.clean.Clean" />
-
+ -->
 	<entry-point class="org.mlbdash.client.MlbDash" />
 
 	<source path="client" />

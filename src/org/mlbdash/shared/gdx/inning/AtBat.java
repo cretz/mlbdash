@@ -21,20 +21,15 @@ import java.util.List;
 import name.pehl.piriti.commons.client.Path;
 
 @SuppressWarnings("serial")
-public class AtBat implements Serializable {
+public class AtBat extends Event implements Serializable {
 
     @Path("@num") short number;
-    @Path("@b") short balls;
-    @Path("@s") short strikes;
-    @Path("@o") short outs;
     @Path("@start_tfs") int startTfs;
     @Path("@batter") int batter;
     @Path("@stand") char stand;
     @Path("@height") String height;
     @Path("@pitcher") int pitcher;
     @Path("@p_throws") char pitcherThrows;
-    @Path("@des") String description;
-    @Path("@event") String event;
     @Path("pitch") List<Pitch> pitches;
 
     public short getNumber() {
@@ -43,30 +38,6 @@ public class AtBat implements Serializable {
 
     public void setNumber(short number) {
         this.number = number;
-    }
-
-    public short getBalls() {
-        return balls;
-    }
-
-    public void setBalls(short balls) {
-        this.balls = balls;
-    }
-
-    public short getStrikes() {
-        return strikes;
-    }
-
-    public void setStrikes(short strikes) {
-        this.strikes = strikes;
-    }
-
-    public short getOuts() {
-        return outs;
-    }
-
-    public void setOuts(short outs) {
-        this.outs = outs;
     }
 
     public int getStartTfs() {
@@ -115,22 +86,6 @@ public class AtBat implements Serializable {
 
     public void setPitcherThrows(char pitcherThrows) {
         this.pitcherThrows = pitcherThrows;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getEvent() {
-        return event;
-    }
-
-    public void setEvent(String event) {
-        this.event = event;
     }
 
     public List<Pitch> getPitches() {

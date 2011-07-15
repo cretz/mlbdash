@@ -15,23 +15,37 @@
  */
 package org.mlbdash.client.gdx;
 
-import org.mlbdash.client.gdx.inning.ActionReader;
-import org.mlbdash.client.gdx.inning.AtBatReader;
-import org.mlbdash.client.gdx.inning.HalfInningReader;
-import org.mlbdash.client.gdx.inning.InningReader;
-import org.mlbdash.client.gdx.inning.PitchReader;
-
 import com.google.gwt.inject.client.AbstractGinModule;
 
 public class XmlReaderModule extends AbstractGinModule {
 
     @Override
     protected void configure() {
-        bind(ActionReader.class).asEagerSingleton();
-        bind(AtBatReader.class).asEagerSingleton();
-        bind(HalfInningReader.class).asEagerSingleton();
-        bind(InningReader.class).asEagerSingleton();
-        bind(PitchReader.class).asEagerSingleton();
+        
+        //XXX: Please fully qualify all readers since there is ambiguity
+        
+        //gameevents
+        bind(org.mlbdash.client.gdx.gameevents.ActionReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.gameevents.AtBatReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.gameevents.EventReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.gameevents.GameEventsReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.gameevents.HalfInningReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.gameevents.InningReader.class).asEagerSingleton();
+        
+        //inning
+        bind(org.mlbdash.client.gdx.inning.ActionReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.inning.AtBatReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.inning.EventReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.inning.HalfInningReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.inning.InningReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.inning.PitchReader.class).asEagerSingleton();
+        
+        //masterscore
+        bind(org.mlbdash.client.gdx.masterscore.AwayHomeNumberReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.masterscore.GameReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.masterscore.MasterScoreboardReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.masterscore.HomeRunPlayerReader.class).asEagerSingleton();
+        bind(org.mlbdash.client.gdx.masterscore.PitcherReader.class).asEagerSingleton();
     }
     
 }

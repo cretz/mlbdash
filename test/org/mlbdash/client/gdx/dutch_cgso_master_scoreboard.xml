@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2011 MLB Advanced Media, L.P. Use of any content on this page 
+    acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt -->
+<games year="2011" month="07" day="14" modified_date="2011-07-15T11:25:03Z"
+    next_day_date="2011-07-15">
+    <game id="2011/07/14/clemlb-balmlb-1" venue="Oriole Park at Camden Yards"
+        game_pk="288277" time="7:05" time_zone="ET" ampm="PM" away_time="7:05"
+        away_time_zone="ET" away_ampm="PM" home_time="7:05"
+        home_time_zone="ET" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="7:05" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="7:05"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="2"
+        scheduled_innings="9" description="" away_name_abbrev="CLE"
+        home_name_abbrev="BAL" away_code="cle" away_file_code="cle"
+        away_team_id="114" away_team_city="Cleveland" away_team_name="Indians"
+        away_division="C" away_league_id="103" away_sport_code="mlb"
+        home_code="bal" home_file_code="bal" home_team_id="110"
+        home_team_city="Baltimore" home_team_name="Orioles"
+        home_division="E" home_league_id="103" home_sport_code="mlb"
+        day="THU" gameday_sw="P" away_games_back="-" home_games_back="18.5"
+        away_games_back_wildcard="5.5" home_games_back_wildcard="17.0"
+        venue_w_chan_loc="USMD0018" gameday="2011_07_14_clemlb_balmlb_1"
+        away_win="48" away_loss="42" home_win="36" home_loss="53"
+        league="AA">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="N" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="3" home="0" />
+            <inning away="0" home="0" />
+            <inning away="1" home="2" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="4" home="2" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <r away="8" home="4" diff="4" />
+            <h away="11" home="8" />
+            <e away="0" home="0" />
+        </linescore>
+        <home_runs>
+            <player id="452678" last="Cabrera" first="Asdrubal"
+                name_display_roster="Cabrera, A" number="13" hr="1"
+                std_hr="15" inning="1" runners="0" team_code="cle" />
+            <player id="467793" last="Santana" first="Carlos"
+                name_display_roster="Santana, C" number="41" hr="1"
+                std_hr="14" inning="1" runners="1" team_code="cle" />
+        </home_runs>
+        <winning_pitcher id="475416" last="Masterson"
+            first="Justin" name_display_roster="Masterson" number="63"
+            era="2.80" wins="8" losses="6" />
+        <losing_pitcher id="425386" last="Guthrie" first="Jeremy"
+            name_display_roster="Guthrie" number="46" era="4.45" wins="3"
+            losses="13" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288277-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_clemlb_balmlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288277-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288277-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_clemlb_balmlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_clemlb_balmlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_clemlb_balmlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="MASN HD, MLBN" />
+        <broadcast>
+            <home>
+                <tv>MASN HD, MLBN</tv>
+                <radio>1090 WBAL</radio>
+            </home>
+            <away>
+                <tv>STO-HD, MLBN</tv>
+                <radio>WTAM 1100</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288277-2011-07-14"
+                start="2011-07-14T19:05:00-0400" title="CLE @ BAL"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/clebal_288277_preview.jpg" />
+            <media type="vpp" content_id="16867451" topic_id=""
+                headline="Santana's two-run homer"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16867451_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/clebal_288277_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/nyamlb-tormlb-1" venue="Rogers Centre"
+        game_pk="288281" time="7:07" time_zone="ET" ampm="PM" away_time="7:07"
+        away_time_zone="ET" away_ampm="PM" home_time="7:07"
+        home_time_zone="ET" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="7:07" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="7:07"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="14"
+        scheduled_innings="9" description="" away_name_abbrev="NYY"
+        home_name_abbrev="TOR" away_code="nya" away_file_code="nyy"
+        away_team_id="147" away_team_city="NY Yankees" away_team_name="Yankees"
+        away_division="E" away_league_id="103" away_sport_code="mlb"
+        home_code="tor" home_file_code="tor" home_team_id="141"
+        home_team_city="Toronto" home_team_name="Blue Jays"
+        home_division="E" home_league_id="103" home_sport_code="mlb"
+        day="THU" gameday_sw="P" away_games_back="1.5" home_games_back="10.5"
+        away_games_back_wildcard="-" home_games_back_wildcard="9.0"
+        venue_w_chan_loc="CAXX0504" gameday="2011_07_14_nyamlb_tormlb_1"
+        away_win="53" away_loss="36" home_win="46" home_loss="47"
+        league="AA">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="Y" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="0" home="8" />
+            <inning away="0" home="1" />
+            <inning away="4" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="3" home="2" />
+            <inning away="0" home="2" />
+            <inning away="0" home="3" />
+            <inning away="0" />
+            <r away="7" home="16" diff="9" />
+            <h away="14" home="20" />
+            <e away="3" home="0" />
+        </linescore>
+        <home_runs>
+            <player id="116662" last="Jones" first="Andruw"
+                name_display_roster="Jones, An" number="18" hr="2"
+                std_hr="6" inning="6" runners="2" team_code="nya" />
+        </home_runs>
+        <winning_pitcher id="457456" last="Reyes" first="Jo-Jo"
+            name_display_roster="Reyes, Jo" number="37" era="4.94" wins="5"
+            losses="7" />
+        <losing_pitcher id="112526" last="Colon" first="Bartolo"
+            name_display_roster="Colon" number="40" era="3.47" wins="6"
+            losses="5" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288281-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_nyamlb_tormlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288281-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288281-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_nyamlb_tormlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_nyamlb_tormlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_nyamlb_tormlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="SNET, MLBN" />
+        <broadcast>
+            <home>
+                <tv>SNET, MLBN</tv>
+                <radio>FAN 590, CKAC 730</radio>
+            </home>
+            <away>
+                <tv>YES, MLBN</tv>
+                <radio>WCBS 880, WADO 1280</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288281-2011-07-14"
+                start="2011-07-14T19:07:00-0400" title="NYY @ TOR"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/nyator_288281_preview.jpg" />
+            <media type="vpp" content_id="16869777" topic_id=""
+                headline="Blue Jays' eight-run first"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16869777_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/nyator_288281_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/flomlb-chnmlb-1" venue="Wrigley Field"
+        game_pk="288278" time="8:05" time_zone="ET" ampm="PM" away_time="8:05"
+        away_time_zone="ET" away_ampm="PM" home_time="7:05"
+        home_time_zone="CT" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="8:05" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="8:05"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="17"
+        scheduled_innings="9" description="" away_name_abbrev="FLA"
+        home_name_abbrev="CHC" away_code="flo" away_file_code="fla"
+        away_team_id="146" away_team_city="Florida" away_team_name="Marlins"
+        away_division="E" away_league_id="104" away_sport_code="mlb"
+        home_code="chn" home_file_code="chc" home_team_id="112"
+        home_team_city="Chi Cubs" home_team_name="Cubs" home_division="C"
+        home_league_id="104" home_sport_code="mlb" day="THU" gameday_sw="P"
+        away_games_back="13.5" home_games_back="12.5"
+        away_games_back_wildcard="10.0" home_games_back_wildcard="17.5"
+        venue_w_chan_loc="USIL0225" gameday="2011_07_14_flomlb_chnmlb_1"
+        away_win="44" away_loss="48" home_win="37" home_loss="56"
+        league="NN">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="N" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="0" home="0" />
+            <inning away="0" home="1" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="1" />
+            <inning away="0" home="0" />
+            <inning away="6" home="1" />
+            <r away="6" home="3" diff="3" />
+            <h away="9" home="8" />
+            <e away="0" home="1" />
+        </linescore>
+        <home_runs>
+            <player id="407781" last="Byrd" first="Marlon"
+                name_display_roster="Byrd" number="24" hr="1" std_hr="4"
+                inning="2" runners="0" team_code="chn" />
+        </home_runs>
+        <winning_pitcher id="465629" last="Mujica"
+            first="Edward" name_display_roster="Mujica" number="34" era="3.14"
+            wins="7" losses="2" />
+        <losing_pitcher id="461791" last="Marmol" first="Carlos"
+            name_display_roster="Marmol" number="49" era="3.64" wins="2"
+            losses="3" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288278-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_flomlb_chnmlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288278-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288278-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_flomlb_chnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_flomlb_chnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_flomlb_chnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="CSN" />
+        <broadcast>
+            <home>
+                <tv>CSN</tv>
+                <radio>WGN 720, WRTO 1200</radio>
+            </home>
+            <away>
+                <tv>FS-F HD</tv>
+                <radio>WAXY 790, WAQI 710</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288278-2011-07-14"
+                start="2011-07-14T20:05:00-0400" title="FLA @ CHC"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/flochn_288278_preview.jpg" />
+            <media type="vpp" content_id="16884239" topic_id="11493214"
+                headline="Dobbs' big double"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16884239_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/flochn_288278_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/kcamlb-minmlb-1" venue="Target Field"
+        game_pk="288279" time="8:10" time_zone="ET" ampm="PM" away_time="7:10"
+        away_time_zone="CT" away_ampm="PM" home_time="7:10"
+        home_time_zone="CT" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="8:10" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="8:10"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="3312"
+        scheduled_innings="9" description="" away_name_abbrev="KC"
+        home_name_abbrev="MIN" away_code="kca" away_file_code="kc"
+        away_team_id="118" away_team_city="Kansas City" away_team_name="Royals"
+        away_division="C" away_league_id="103" away_sport_code="mlb"
+        home_code="min" home_file_code="min" home_team_id="142"
+        home_team_city="Minnesota" home_team_name="Twins" home_division="C"
+        home_league_id="103" home_sport_code="mlb" day="THU" gameday_sw="P"
+        away_games_back="12.0" home_games_back="6.0"
+        away_games_back_wildcard="17.5" home_games_back_wildcard="11.5"
+        venue_w_chan_loc="USMN0503" gameday="2011_07_14_kcamlb_minmlb_1"
+        away_win="37" away_loss="55" home_win="42" home_loss="48"
+        league="AA">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="Y" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="2" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="1" home="0" />
+            <inning away="0" home="4" />
+            <inning away="0" home="0" />
+            <inning away="0" home="4" />
+            <inning away="0" home="0" />
+            <inning away="1" />
+            <r away="4" home="8" diff="4" />
+            <h away="9" home="13" />
+            <e away="0" home="3" />
+        </linescore>
+        <home_runs>
+            <player id="461858" last="Plouffe" first="Trevor"
+                name_display_roster="Plouffe" number="24" hr="1" std_hr="4"
+                inning="5" runners="1" team_code="min" />
+        </home_runs>
+        <winning_pitcher id="434538" last="Liriano"
+            first="Francisco" name_display_roster="Liriano" number="47"
+            era="4.76" wins="6" losses="7" />
+        <losing_pitcher id="136600" last="Chen" first="Bruce"
+            name_display_roster="Chen" number="52" era="3.56" wins="5"
+            losses="3" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288279-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_kcamlb_minmlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288279-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288279-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_kcamlb_minmlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_kcamlb_minmlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_kcamlb_minmlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="FS-N" />
+        <broadcast>
+            <home>
+                <tv>FS-N</tv>
+                <radio>TIBN 1500</radio>
+            </home>
+            <away>
+                <tv>FSKC</tv>
+                <radio>KCSP 610</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288279-2011-07-14"
+                start="2011-07-14T20:10:00-0400" title="KC @ MIN"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/kcamin_288279_preview.jpg" />
+            <media type="vpp" content_id="16875647" topic_id=""
+                headline="Plouffe's two-run blast"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16875647_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/kcamin_288279_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/milmlb-colmlb-1" venue="Coors Field"
+        game_pk="288280" time="8:40" time_zone="ET" ampm="PM" away_time="7:40"
+        away_time_zone="CT" away_ampm="PM" home_time="6:40"
+        home_time_zone="MT" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="8:40" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="8:40"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="19"
+        scheduled_innings="9" description="" away_name_abbrev="MIL"
+        home_name_abbrev="COL" away_code="mil" away_file_code="mil"
+        away_team_id="158" away_team_city="Milwaukee" away_team_name="Brewers"
+        away_division="C" away_league_id="104" away_sport_code="mlb"
+        home_code="col" home_file_code="col" home_team_id="115"
+        home_team_city="Colorado" home_team_name="Rockies"
+        home_division="W" home_league_id="104" home_sport_code="mlb"
+        day="THU" gameday_sw="P" away_games_back="0.5" home_games_back="8.5"
+        away_games_back_wildcard="5.5" home_games_back_wildcard="10.0"
+        venue_w_chan_loc="USCO0105" gameday="2011_07_14_milmlb_colmlb_1"
+        away_win="49" away_loss="44" home_win="44" home_loss="48"
+        league="NN">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="Y" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="1" home="1" />
+            <inning away="1" home="1" />
+            <inning away="0" home="0" />
+            <inning away="0" home="4" />
+            <inning away="0" home="0" />
+            <inning away="0" home="1" />
+            <inning away="0" home="4" />
+            <inning away="0" home="1" />
+            <inning away="1" />
+            <r away="3" home="12" diff="9" />
+            <h away="8" home="20" />
+            <e away="2" home="1" />
+        </linescore>
+        <home_runs>
+            <player id="430611" last="Hart" first="Corey"
+                name_display_roster="Hart, C" number="1" hr="1" std_hr="11"
+                inning="9" runners="0" team_code="mil" />
+            <player id="448676" last="Spilborghs" first="Ryan"
+                name_display_roster="Spilborghs" number="19" hr="1"
+                std_hr="3" inning="1" runners="0" team_code="col" />
+        </home_runs>
+        <winning_pitcher id="434622" last="Jimenez"
+            first="Ubaldo" name_display_roster="Jimenez" number="38"
+            era="4.08" wins="5" losses="8" />
+        <losing_pitcher id="451596" last="Gallardo"
+            first="Yovani" name_display_roster="Gallardo" number="49"
+            era="4.08" wins="10" losses="6" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288280-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_milmlb_colmlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288280-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288280-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_milmlb_colmlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_milmlb_colmlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_milmlb_colmlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="ROOT SPORTS" />
+        <broadcast>
+            <home>
+                <tv>ROOT SPORTS</tv>
+                <radio>KOA 850</radio>
+            </home>
+            <away>
+                <tv>FSN</tv>
+                <radio>WTMJ 620</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288280-2011-07-14"
+                start="2011-07-14T20:40:00-0400" title="MIL @ COL"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/milcol_288280_preview.jpg" />
+            <media type="vpp" content_id="16884283" topic_id=""
+                headline="Spilborghs flirts with cycle"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16884283_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/milcol_288280_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/sfnmlb-sdnmlb-1" venue="PETCO Park"
+        game_pk="288282" time="10:05" time_zone="ET" ampm="PM"
+        away_time="7:05" away_time_zone="PT" away_ampm="PM" home_time="7:05"
+        home_time_zone="PT" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="10:05" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="10:05"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="2680"
+        scheduled_innings="9" description="" away_name_abbrev="SF"
+        home_name_abbrev="SD" away_code="sfn" away_file_code="sf"
+        away_team_id="137" away_team_city="San Francisco"
+        away_team_name="Giants" away_division="W" away_league_id="104"
+        away_sport_code="mlb" home_code="sdn" home_file_code="sd"
+        home_team_id="135" home_team_city="San Diego" home_team_name="Padres"
+        home_division="W" home_league_id="104" home_sport_code="mlb"
+        day="THU" gameday_sw="P" away_games_back="-" home_games_back="13.0"
+        away_games_back_wildcard="" home_games_back_wildcard="14.5"
+        venue_w_chan_loc="USCA0982" gameday="2011_07_14_sfnmlb_sdnmlb_1"
+        away_win="53" away_loss="40" home_win="40" home_loss="53"
+        league="NN">
+        <status status="Final" ind="F" reason="" inning="12"
+            top_inning="N" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="1" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="1" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="5" home="1" />
+            <r away="6" home="2" diff="4" />
+            <h away="9" home="9" />
+            <e away="2" home="1" />
+        </linescore>
+        <home_runs>
+            <player id="333492" last="Huff" first="Aubrey"
+                name_display_roster="Huff" number="17" hr="1" std_hr="9"
+                inning="9" runners="0" team_code="sfn" />
+        </home_runs>
+        <winning_pitcher id="433586" last="Casilla"
+            first="Santiago" name_display_roster="Casilla" number="46"
+            era="2.11" wins="2" losses="1" />
+        <losing_pitcher id="502381" last="Gregerson"
+            first="Luke" name_display_roster="Gregerson" number="57"
+            era="2.56" wins="2" losses="3" />
+        <save_pitcher id="451216" last="Wilson" first="Brian"
+            number="38" name_display_roster="Wilson, Br" era="3.09"
+            wins="6" losses="2" saves="27" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288282-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_sfnmlb_sdnmlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288282-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288282-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_sfnmlb_sdnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_sfnmlb_sdnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_sfnmlb_sdnmlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="4 San Diego, 47 Uniradio TV" />
+        <broadcast>
+            <home>
+                <tv>4 San Diego, 47 Uniradio TV</tv>
+                <radio>XPRS 1090, XEMO 860</radio>
+            </home>
+            <away>
+                <tv>CSN-BA HD</tv>
+                <radio>KNBR 680</radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288282-2011-07-14"
+                start="2011-07-14T22:05:00-0400" title="SF @ SD"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/sfnsdn_288282_preview.jpg" />
+            <media type="vpp" content_id="16884569" topic_id=""
+                headline="Huff's game-tying homer"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16884569_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/sfnsdn_288282_preview.jpg
+        </video_thumbnail>
+    </game>
+    <game id="2011/07/14/texmlb-seamlb-1" venue="Safeco Field"
+        game_pk="288283" time="10:10" time_zone="ET" ampm="PM"
+        away_time="9:10" away_time_zone="CT" away_ampm="PM" home_time="7:10"
+        home_time_zone="PT" home_ampm="PM" game_type="R" resume_date=""
+        time_aw_lg="10:10" aw_lg_ampm="PM" tz_aw_lg_gen="ET" time_hm_lg="10:10"
+        hm_lg_ampm="PM" tz_hm_lg_gen="ET" venue_id="680"
+        scheduled_innings="9" description="" away_name_abbrev="TEX"
+        home_name_abbrev="SEA" away_code="tex" away_file_code="tex"
+        away_team_id="140" away_team_city="Texas" away_team_name="Rangers"
+        away_division="W" away_league_id="103" away_sport_code="mlb"
+        home_code="sea" home_file_code="sea" home_team_id="136"
+        home_team_city="Seattle" home_team_name="Mariners"
+        home_division="W" home_league_id="103" home_sport_code="mlb"
+        day="THU" gameday_sw="P" away_games_back="-" home_games_back="8.5"
+        away_games_back_wildcard="" home_games_back_wildcard="11.5"
+        venue_w_chan_loc="USWA0395" gameday="2011_07_14_texmlb_seamlb_1"
+        away_win="52" away_loss="41" home_win="43" home_loss="49"
+        league="AA">
+        <status status="Final" ind="F" reason="" inning="9"
+            top_inning="N" b="0" s="0" o="3" inning_state="" />
+        <linescore>
+            <inning away="1" home="0" />
+            <inning away="1" home="0" />
+            <inning away="1" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="2" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <inning away="0" home="0" />
+            <r away="5" home="0" diff="5" />
+            <h away="12" home="5" />
+            <e away="0" home="0" />
+        </linescore>
+        <home_runs>
+            <player id="285078" last="Hamilton" first="Josh"
+                name_display_roster="Hamilton" number="32" hr="1"
+                std_hr="12" inning="1" runners="0" team_code="tex" />
+            <player id="443558" last="Cruz" first="Nelson"
+                name_display_roster="Cruz, N" number="17" hr="1" std_hr="21"
+                inning="2" runners="0" team_code="tex" />
+            <player id="435063" last="Napoli" first="Mike"
+                name_display_roster="Napoli" number="25" hr="1" std_hr="13"
+                inning="6" runners="0" team_code="tex" />
+        </home_runs>
+        <winning_pitcher id="502706" last="Holland"
+            first="Derek" name_display_roster="Holland, D" number="45"
+            era="4.32" wins="8" losses="4" />
+        <losing_pitcher id="450306" last="Vargas" first="Jason"
+            name_display_roster="Vargas" number="38" era="3.68" wins="6"
+            losses="7" />
+        <save_pitcher id="" last="" first="" number=""
+            name_display_roster="" era="0" wins="0" losses="0" saves="0" />
+        <links
+            mlbtv="bam.media.launchPlayer({calendar_event_id:'14-288283-2011-07-14',media_type:'video'})"
+            wrapup="/mlb/gameday/index.jsp?gid=2011_07_14_texmlb_seamlb_1&amp;mode=wrap&amp;c_id=mlb"
+            home_audio="bam.media.launchPlayer({calendar_event_id:'14-288283-2011-07-14',media_type:'audio'})"
+            away_audio="bam.media.launchPlayer({calendar_event_id:'14-288283-2011-07-14',media_type:'audio'})"
+            home_preview="/mlb/gameday/index.jsp?gid=2011_07_14_texmlb_seamlb_1&amp;mode=preview&amp;c_id=mlb"
+            away_preview="/mlb/gameday/index.jsp?gid=2011_07_14_texmlb_seamlb_1&amp;mode=preview&amp;c_id=mlb"
+            preview="/mlb/gameday/index.jsp?gid=2011_07_14_texmlb_seamlb_1&amp;mode=preview&amp;c_id=mlb"
+            tv_station="ROOT SPORTS" />
+        <broadcast>
+            <home>
+                <tv>ROOT SPORTS</tv>
+                <radio>710 ESPN</radio>
+            </home>
+            <away>
+                <tv>FSSW</tv>
+                <radio>103.3 ESPN </radio>
+            </away>
+        </broadcast>
+        <game_media>
+            <media type="game" calendar_event_id="14-288283-2011-07-14"
+                start="2011-07-14T22:10:00-0400" title="TEX @ SEA"
+                has_mlbtv="true" free="NO" media_state="media_archive"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/preview/texsea_288283_preview.jpg" />
+            <media type="vpp" content_id="16885065" topic_id=""
+                headline="Holland's shutout"
+                thumbnail="http://mediadownloads.mlb.com/mlbam/2011/07/14/images/mlbf_16885065_th_7.jpg" />
+        </game_media>
+        <video_thumbnail>http://mediadownloads.mlb.com/mlbam/preview/texsea_288283_preview.jpg
+        </video_thumbnail>
+    </game>
+</games>

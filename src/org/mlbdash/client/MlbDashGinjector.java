@@ -16,7 +16,9 @@
 package org.mlbdash.client;
 
 import org.mlbdash.client.gdx.XmlReaderModule;
+import org.mlbdash.client.gdx.gameevents.GameEventsReader;
 import org.mlbdash.client.gdx.inning.InningReader;
+import org.mlbdash.client.gdx.masterscore.MasterScoreboardReader;
 
 import com.google.gwt.inject.client.GinModules;
 import com.google.gwt.inject.client.Ginjector;
@@ -27,6 +29,8 @@ import com.google.gwt.inject.client.Ginjector;
 public interface MlbDashGinjector extends Ginjector {
 
     //xml reader module
-    
+
+    GameEventsReader getGameEventsReader();
     InningReader getInningReader();
+    MasterScoreboardReader getGamesReader();
 }
